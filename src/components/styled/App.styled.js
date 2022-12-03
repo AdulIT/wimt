@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const App = styled.div`
-background-color: black;
+    min-height: 100vh;
 `;
 
 export default App;

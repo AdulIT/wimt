@@ -7,10 +7,10 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  color: #fff;
+  color: ${({ theme }) => theme.text};
   margin: 0;
   background-color: ${ ({ theme }) => theme.body};
-  font-family: -apple-system, 'Roboto', 'Oxygen',
+  font-family: -apple-system, 'Montserrat', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
