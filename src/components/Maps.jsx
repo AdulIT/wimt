@@ -1,7 +1,9 @@
+import Geolocation from "./styled/Geolocation";
+
 const Maps = () => {
   return (
     <div>
-        Maps
+        <Geolocation />
     </div>
   );
 };
