@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import SignUp from './components/SignUp';
 import { UserContext } from './components/UserContext';
 import { useContext } from 'react';
+import SignedInApp from './components/SignedInApp';
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
           {user?.loggedIn === null ? (
             ""
           ) : user?.loggedIn === true ? (
-            'logged in'
+            <SignedInApp />
           ) : (
             <SignUp />
           )}
