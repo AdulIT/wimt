@@ -32,8 +32,9 @@ const Geolocation = () => {
 
     return (
         <div>
-            <div className={s.adressSearchContainer}></div>
+            <div className={s.addressSearchContainer}></div>
             <Autocomplete isLoaded={isLoaded} onSelect={onPlaceSelect}/>
+            <button>Set marker</button>
             {isLoaded ? <Map center={center}/> : <h2>Loading</h2>}
         </div>
     );
