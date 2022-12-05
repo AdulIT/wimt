@@ -10,8 +10,6 @@ root.render(
   <React.StrictMode>
     <Context>
       <App />
-      {/* добавил проверить геолокацию */}
-      <Geolocation />
     </Context>
   </React.StrictMode>
 );
