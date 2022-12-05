@@ -8,6 +8,7 @@ import { UserContext } from './components/UserContext';
 import { useContext } from 'react';
 import SignedInApp from './components/SignedInApp';
 
+
 function App() {
 
   const user = useContext(UserContext);
@@ -25,6 +26,7 @@ function App() {
             <SignUp />
           )}
         </StyledApp>
+        
       </ThemeProvider>
     </BrowserRouter>
   );
