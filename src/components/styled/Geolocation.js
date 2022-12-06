@@ -4,7 +4,6 @@ import { Map, MODES } from '../Map';
 import { useJsApiLoader } from '@react-google-maps/api';
 import { Autocomplete } from '../Autocomplete';
 import s from '../Geolocation.module.css';
-// import { useState } from 'react';
 
 const API_KEY = process.env.REACT_APP_API_KEY
 const defaultCenter = {

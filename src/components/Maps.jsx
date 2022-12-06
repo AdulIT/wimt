@@ -1,4 +1,4 @@
-import Geolocation from "./components/styled/Geolocation";
+import Geolocation from "../components/styled/Geolocation";
 
 const Maps = () => {
   return (
