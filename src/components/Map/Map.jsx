@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
-import {GoogleMap, Marker} from '@react-google-maps/api';
+import {GoogleMap} from '@react-google-maps/api';
 import s from './Map.module.css';
 import { defaultTheme } from './Theme';
 import { CurrentLocationMarker } from '../CurrentLocationMarker/CurrentLocationMarker.jsx';
-// import {Marker} from '../Marker'
+
 
 
 const containerStyle = {
@@ -67,7 +67,7 @@ const Map = ({center, mode, markers }) => {
         onUnmount={onUnmount}
         options={defaultOptions}
       >
-        <Marker position={center}/>
+        <CurrentLocationMarker position={center}/>
         
       </GoogleMap>
 
